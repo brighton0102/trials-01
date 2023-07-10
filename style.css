@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap");
+
+:root {
+  --color-darkblue: #1b1b32;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: poppins;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(58, 58, 158, 0.6);
+  z-index: 1;
+}
+main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(https://images.pexels.com/photos/273671/pexels-photo-273671.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+#main-content {
+  padding: 80px 0;
+  z-index: 10;
+}
+
+h1 {
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#description {
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  outline: none;
+}
+select {
+  padding: 10px 20px;
+  outline: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #7d2ae8;
+  padding: 40px;
+}
+
+form p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.button-area p {
+  font-size: 18px;
+}
+
+.radio-btn {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.radio-btn input {
+  width: unset;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  outline: none;
+}
+
+button {
+  padding: 15px 30px;
+  margin-top: 20px;
+  outline: none;
+  background-color: #37af65;
+  color: white;
+  border: 1px solid #37af65;
+  font-size: 18px;
+  cursor: pointer;
+}
