@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Trials</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <main>
+      <div id="overlay"></div>
+      <div id="main-content">
+        <h1 id="title">Microverse Survey Form</h1>
+        <p id="description">Learn with students from all around the world</p>
+        <form id="survey-form" action="">
+          <label id="name-label" for="name">Name</label>
+          <input id="name" type="text" placeholder="Name" required />
+          <br />
+          <label id="email-label" for="email">Email</label>
+          <input id="email" type="email" required placeholder="Email" />
+          <br />
+          <label id="number-label" for="number">Age</label>
+          <input
+            id="number"
+            type="number"
+            min="18"
+            max="50"
+            placeholder="Age"
+          />
+          <br />
+          <label id="courses" for="courses">Choose a course</label>
+          <select name="courses" id="dropdown">
+            <option value="Front-end">Front-end Development</option>
+            <option value="Back-end">Back-end Development</option>
+            <option value="FullStack">FullStack Development</option>
+          </select>
+
+          <div class="button-area">
+            <p>How likely would you recommend Microverse to a friend?</p>
+            <div class="radio-btn">
+              <input name="recommend" type="radio" value="Yes" id="yes" />
+              <label for="yes">Yes</label>
+            </div>
+
+            <div class="radio-btn">
+              <input name="recommend" type="radio" value="May be" id="may-be" />
+              <label for="may-be">May be</label>
+            </div>
+
+            <div class="radio-btn">
+              <input name="recommend" type="radio" value="No" id="no" />
+              <label for="no">No</label>
+            </div>
+          </div>
+          <div class="button-area">
+            <p>Which programming language do you prefer?</p>
+            <div class="radio-btn">
+              <input type="checkbox" id="javaScript" value="JavaScript" />
+              <label for="javaScript">JavaScript</label>
+            </div>
+            <div class="radio-btn">
+              <input type="checkbox" id="python" value="Python" />
+              <label for="python">Python</label>
+            </div>
+            <div class="radio-btn">
+              <input type="checkbox" id="ruby" value="Ruby" />
+              <label for="ruby">Ruby</label>
+            </div>
+          </div>
+          <p>Any comments or suggestions?</p>
+          <textarea
+            name="message"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Enter your message here..."
+          ></textarea>
+          <button id="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
+</body>
+</html>
